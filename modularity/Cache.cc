@@ -61,7 +61,7 @@ int main() {
         c.setPair("mock", "quck");
 
         auto value = c.getValue("foo");
-        std::cout << "value: " << value;
+        std::cout << "value: " << value << "'\n";
         c.deletePair("foo");
     } catch (const std::exception e) {
         std::cerr << e.what();
